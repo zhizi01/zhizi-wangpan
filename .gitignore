@@ -1,0 +1,9 @@
+.cursor
+
+# 聚合构建输出（与 server/、web/ 同级）
+/dist/
+
+# 各包依赖
+server/node_modules/
+web/node_modules/
+
