@@ -6,6 +6,9 @@
 # 聚合构建输出（与 server/、web/ 同级）
 /dist/
 
+# postbuild 复制到根目录的快捷 install（源为 scripts/install.mjs）
+/install.mjs
+
 # 各包依赖
 server/node_modules/
 web/node_modules/
